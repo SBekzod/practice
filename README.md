@@ -22,7 +22,7 @@ Learning GIT and Python Foundation
 ## Python Foundation:
 
 - Primitive Variables
-- Function 
+- Function
 - Object
 - Class about
 - Class deep dive > Encapsulation
@@ -32,5 +32,5 @@ Learning GIT and Python Foundation
 - Tuple
 - List
 - Array
-- Comprehension 
-- Debugging
+- Comprehension
+- Packages & Debugging
