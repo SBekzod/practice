@@ -4,6 +4,7 @@
     (3) Debugging
 '''
 
+from PIL import Image
 import turtle
 print("===== Python Packages & Core Package =====")
 ''' Python Packages/Modules: Core, File and External '''
@@ -31,3 +32,13 @@ with open("material/message.txt", "r") as your_file:
     print("your_content:", your_content)
 
 print("DONE")
+
+
+print("===== Package Manager & External Package =====")
+''' Package Managers: pip pipenv npm yarn composer brew'''
+# External Package > https://pypi.org/
+
+with Image.open("material/logo.png") as img_obj:
+    resized_img = img_obj.resize((200, 200))
+    resized_img.show()
+    resized_img.save("material/sample.png")
