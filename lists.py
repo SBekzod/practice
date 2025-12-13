@@ -91,7 +91,8 @@ print(f"the sorted numbs: {numbs} and new_numbs: {new_numbs}")
 print("===== Lambda function =====")
 # lambda is small anonymous function!
 def calculate(x, y): return x * y
-
+# calculate_ = lambda x, y: x * y
+# print(calculate_(3, 5)) 
 
 result = calculate(3, 5)
 print("result:", result)
