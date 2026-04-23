@@ -26,7 +26,7 @@ tuple_obj = ("MIT", 100, True, None)
 print(animals[0])
 # animals[0] = "bird"
 
-# try avoid thse
+# try avoid these
 people = "Andrew", "John"
 animals = "dog",
 
